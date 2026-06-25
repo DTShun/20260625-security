@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tscanplus-stdio": {
+      "command": "D:\\software\\TscanPlus_Win_Amd64\\TscanPlus_Win_Amd64.exe",
+      "args": ["mcp", "stdio"]
+    },
+    "tscanplus-http": {
+      "url": "http://127.0.0.1:8088/mcp"
+    },
+    "tscanplus-sse-legacy": {
+      "url": "http://127.0.0.1:8088/sse"
+    }
+  }
+}

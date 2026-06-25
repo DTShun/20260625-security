@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tscanplus": {
+      "command": "D:\\software\\TscanPlus_Win_Amd64\\TscanPlus_Win_Amd64.exe",
+      "args": ["mcp", "stdio"]
+    }
+  }
+}
