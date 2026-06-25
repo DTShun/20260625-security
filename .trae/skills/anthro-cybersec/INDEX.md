@@ -1,0 +1,242 @@
+# Anthropic Cybersecurity Skills (精选安装)
+
+> 来源：https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+> 安装时间：2026-06-25
+> 总计：236 个技能
+
+- **[red-teaming]** `abusing-dpapi-for-credential-access` - Extract DPAPI-protected secrets such as credentials and browser data offline and
+- **[red-teaming]** `abusing-shadow-credentials-for-privesc` - Take over Active Directory user and computer accounts by writing alternate certi
+- **[soc-operations]** `analyzing-dns-logs-for-exfiltration` - Analyzes DNS query logs to detect data exfiltration via DNS tunneling, DGA domai
+- **[malware-analysis]** `analyzing-golang-malware-with-ghidra` - Reverse engineer Go-compiled malware using Ghidra with specialized scripts for f
+- **[malware-analysis]** `analyzing-heap-spray-exploitation` - Detect and analyze heap spray attacks in memory dumps using Volatility3 plugins 
+- **[incident-response]** `analyzing-linux-audit-logs-for-intrusion` - Uses the Linux Audit framework (auditd) with ausearch and aureport utilities to 
+- **[network-security]** `analyzing-network-packets-with-scapy` - Craft, send, sniff, and dissect network packets using Scapy for protocol analysi
+- **[incident-response]** `analyzing-network-traffic-for-incidents` - Analyzes network traffic captures and flow data to identify adversary activity d
+- **[malware-analysis]** `analyzing-pdf-malware-with-pdfid` - Analyzes malicious PDF files using PDFiD, pdf-parser, and peepdf to identify emb
+- **[security-operations]** `analyzing-powershell-script-block-logging` - Parse Windows PowerShell Script Block Logs (Event ID 4104) from EVTX files to de
+- **[incident-response]** `analyzing-security-logs-with-splunk` - Leverages Splunk Enterprise Security and SPL (Search Processing Language) to inv
+- **[digital-forensics]** `analyzing-slack-space-and-file-system-artifacts` - Examine file system slack space, MFT entries, USN journal, and alternate data st
+- **[security-operations]** `analyzing-web-server-logs-for-intrusion` - Parse Apache and Nginx access logs to detect SQL injection attempts, local file 
+- **[digital-forensics]** `analyzing-windows-amcache-artifacts` - Parses and analyzes the Windows Amcache.hve registry hive to extract evidence of
+- **[digital-forensics]** `analyzing-windows-lnk-files-for-artifacts` - Parse Windows LNK shortcut files to extract target paths, timestamps, volume inf
+- **[digital-forensics]** `analyzing-windows-prefetch-with-python` - Parse Windows Prefetch files using the windowsprefetch Python library to reconst
+- **[digital-forensics]** `analyzing-windows-shellbag-artifacts` - Analyze Windows Shellbag registry artifacts to reconstruct folder browsing activ
+- **[identity-access-management]** `attacking-entra-id-with-roadtools` - Enumerate Entra ID with ROADrecon and acquire and exchange tokens with roadtx.
+- **[identity-access-management]** `auditing-entra-id-with-aadinternals` - Run Microsoft Entra ID tenant reconnaissance, token acquisition and manipulation
+- **[threat-intelligence]** `auditing-tls-certificate-transparency-logs` - Monitors Certificate Transparency (CT) logs to detect unauthorized certificate i
+- **[red-teaming]** `building-c2-infrastructure-with-sliver-framework` - Build and configure a resilient command-and-control infrastructure using BishopF
+- **[red-teaming]** `building-c2-redirector-infrastructure` - Architect redirectors with nginx and Apache, malleable profiles, and OPSEC for r
+- **[incident-response]** `building-incident-timeline-with-timesketch` - Build collaborative forensic incident timelines using Timesketch to ingest, norm
+- **[vulnerability-management]** `building-patch-tuesday-response-process` - Establish a structured operational process to triage, test, and deploy Microsoft
+- **[red-teaming]** `building-red-team-c2-infrastructure-with-havoc` - Deploy and configure the Havoc C2 framework with teamserver, HTTPS listeners, re
+- **[threat-intelligence]** `building-threat-actor-profile-from-osint` - Build comprehensive threat actor profiles using open-source intelligence (OSINT)
+- **[vulnerability-management]** `building-vulnerability-aging-and-sla-tracking` - Implement a vulnerability aging dashboard and SLA tracking system to measure rem
+- **[vulnerability-management]** `building-vulnerability-dashboard-with-defectdojo` - Deploy DefectDojo as a centralized vulnerability management dashboard with scann
+- **[vulnerability-management]** `building-vulnerability-exception-tracking-system` - Build a vulnerability exception and risk acceptance tracking system with approva
+- **[web-application-security]** `bypassing-authentication-with-forced-browsing` - Discovering and accessing unprotected pages, APIs, and administrative interfaces
+- **[red-teaming]** `coercing-authentication-with-coercer-petitpotam` - Trigger machine account authentication with PetitPotam (MS-EFSR) and Coercer acr
+- **[threat-intelligence]** `collecting-open-source-intelligence` - Collects and synthesizes open-source intelligence (OSINT) about threat actors, m
+- **[penetration-testing]** `conducting-api-security-testing` - Conducts security testing of REST, GraphQL, and gRPC APIs to identify vulnerabil
+- **[cloud-security]** `conducting-cloud-penetration-testing` - This skill outlines methodologies for performing authorized penetration testing 
+- **[red-teaming]** `conducting-domain-persistence-with-dcsync` - Perform DCSync attacks to replicate Active Directory credentials and establish d
+- **[penetration-testing]** `conducting-external-reconnaissance-with-osint` - Conducts external reconnaissance using Open Source Intelligence (OSINT) techniqu
+- **[red-teaming]** `conducting-full-scope-red-team-engagement` - Plan and execute a comprehensive red team engagement covering reconnaissance thr
+- **[penetration-testing]** `conducting-internal-network-penetration-test` - Execute an internal network penetration test simulating an insider threat or pos
+- **[red-teaming]** `conducting-internal-reconnaissance-with-bloodhound-ce` - Conduct internal Active Directory reconnaissance using BloodHound Community Edit
+- **[penetration-testing]** `conducting-mobile-app-penetration-test` - Conducts penetration testing of iOS and Android mobile applications following th
+- **[penetration-testing]** `conducting-network-penetration-test` - Conducts comprehensive network penetration tests against authorized target envir
+- **[red-teaming]** `conducting-pass-the-ticket-attack` - Pass-the-Ticket (PtT) is a lateral movement technique that uses stolen Kerberos 
+- **[penetration-testing]** `conducting-social-engineering-penetration-test` - Design and execute a social engineering penetration test including phishing, vis
+- **[red-teaming]** `conducting-social-engineering-pretext-call` - Plan and execute authorized vishing (voice phishing) pretext calls to assess emp
+- **[red-teaming]** `conducting-spearphishing-simulation-campaign` - Spearphishing simulation is a targeted social engineering attack vector used by 
+- **[penetration-testing]** `conducting-wireless-network-penetration-test` - Conducts authorized wireless network penetration tests to assess the security of
+- **[endpoint-security]** `configuring-windows-defender-advanced-settings` - Configures Microsoft Defender for Endpoint (MDE) advanced protection settings in
+- **[deception-technology]** `deploying-active-directory-honeytokens` - Deploys deception-based honeytokens in Active Directory including fake privilege
+- **[deception-technology]** `deploying-cloud-deception-with-decoy-resources` - Deploy cloud-native deception across AWS, Azure, and GCP using decoy (honey) res
+- **[api-security]** `detecting-api-enumeration-attacks` - Detect and prevent API enumeration attacks including BOLA and IDOR exploitation 
+- **[ot-ics-security]** `detecting-attacks-on-historian-servers` - Detect cyber attacks targeting OT historian servers (OSIsoft PI, Ignition, Wonde
+- **[api-security]** `detecting-broken-object-property-level-authorization` - Detect and test for OWASP API3:2023 Broken Object Property Level Authorization v
+- **[network-security]** `detecting-command-and-control-over-dns` - Detects command-and-control (C2) communications tunneled through DNS protocol in
+- **[network-security]** `detecting-dns-exfiltration-with-dns-query-analysis` - Detect data exfiltration through DNS tunneling by analyzing query entropy, subdo
+- **[soc-operations]** `detecting-entra-offensive-tools-in-graph-logs` - Hunt AADGraphActivityLogs and MicrosoftGraphActivityLogs in Microsoft Sentinel/L
+- **[network-security]** `detecting-exfiltration-over-dns-with-zeek` - Detect DNS-based data exfiltration by analyzing Zeek dns.log for high-entropy su
+- **[endpoint-security]** `detecting-fileless-attacks-on-endpoints` - Detects fileless malware and in-memory attacks that execute entirely in RAM with
+- **[network-security]** `detecting-network-scanning-with-ids-signatures` - Detect network reconnaissance and port scanning using Suricata and Snort IDS sig
+- **[network-security]** `detecting-port-scanning-with-fail2ban` - Configures Fail2ban with custom filters and actions to detect port scanning acti
+- **[threat-hunting]** `detecting-privilege-escalation-attempts` - Detect privilege escalation attempts including token manipulation, UAC bypass, u
+- **[ransomware-defense]** `detecting-ransomware-precursors-in-network` - Detects early-stage ransomware indicators in network traffic before encryption b
+- **[api-security]** `detecting-shadow-api-endpoints` - Discover and inventory shadow API endpoints that operate outside documented spec
+- **[security-operations]** `detecting-sql-injection-via-waf-logs` - Analyze WAF (ModSecurity/AWS WAF/Cloudflare) logs to detect SQL injection attack
+- **[threat-hunting]** `detecting-t1548-abuse-elevation-control-mechanism` - Detect abuse of elevation control mechanisms including UAC bypass, sudo exploita
+- **[cloud-security]** `enumerating-cloud-with-cloudfox` - Map AWS and Azure attack paths and find exploitable misconfigurations with Cloud
+- **[container-security]** `escaping-containers-to-host` - Exploit privileged pods, host mounts, runC CVEs, and exposed Docker sockets to b
+- **[penetration-testing]** `executing-active-directory-attack-simulation` - Executes authorized attack simulations against Active Directory environments to 
+- **[penetration-testing]** `executing-phishing-simulation-campaign` - Executes authorized phishing simulation campaigns to assess an organization's su
+- **[red-teaming]** `executing-red-team-engagement-planning` - Red team engagement planning is the foundational phase that defines scope, objec
+- **[penetration-testing]** `executing-red-team-exercise` - Executes comprehensive red team exercises that simulate real-world adversary ope
+- **[red-teaming]** `exploiting-active-directory-certificate-services-esc1` - Exploit misconfigured Active Directory Certificate Services (AD CS) ESC1 vulnera
+- **[red-teaming]** `exploiting-active-directory-with-bloodhound` - BloodHound is a graph-based Active Directory reconnaissance tool that uses graph
+- **[red-teaming]** `exploiting-adcs-with-certipy` - Enumerate and exploit Active Directory Certificate Services ESC1 through ESC16 m
+- **[api-security]** `exploiting-api-injection-vulnerabilities` - Tests APIs for injection vulnerabilities including SQL injection, NoSQL injectio
+- **[cloud-security]** `exploiting-aws-with-pacu` - Use Pacu modules for AWS privilege escalation, persistence, and backdooring.
+- **[network-security]** `exploiting-bgp-hijacking-vulnerabilities` - Analyzes and simulates BGP hijacking scenarios in authorized lab environments to
+- **[api-security]** `exploiting-broken-function-level-authorization` - Tests APIs for Broken Function Level Authorization (BFLA) vulnerabilities where 
+- **[web-application-security]** `exploiting-broken-link-hijacking` - Discover and exploit broken link hijacking vulnerabilities by identifying refere
+- **[red-teaming]** `exploiting-constrained-delegation-abuse` - Exploit Kerberos Constrained Delegation misconfigurations in Active Directory to
+- **[mobile-security]** `exploiting-deeplink-vulnerabilities` - Tests and exploits deep link (URL scheme and App Link) vulnerabilities in Androi
+- **[api-security]** `exploiting-excessive-data-exposure-in-api` - Tests APIs for excessive data exposure where endpoints return more data than the
+- **[web-application-security]** `exploiting-http-request-smuggling` - Detecting and exploiting HTTP request smuggling vulnerabilities caused by Conten
+- **[web-application-security]** `exploiting-idor-vulnerabilities` - Identifying and exploiting Insecure Direct Object Reference vulnerabilities to a
+- **[mobile-security]** `exploiting-insecure-data-storage-in-mobile` - Identifies and exploits insecure local data storage vulnerabilities in Android a
+- **[web-application-security]** `exploiting-insecure-deserialization` - Identifying and exploiting insecure deserialization vulnerabilities in Java, PHP
+- **[network-security]** `exploiting-ipv6-vulnerabilities` - Identifies and exploits IPv6-specific vulnerabilities including SLAAC spoofing, 
+- **[api-security]** `exploiting-jwt-algorithm-confusion-attack` - Exploits JWT algorithm confusion vulnerabilities where the server's token verifi
+- **[red-teaming]** `exploiting-kerberoasting-with-impacket` - Perform Kerberoasting attacks using Impacket's GetUserSPNs to extract and crack 
+- **[web-application-security]** `exploiting-mass-assignment-in-rest-apis` - Discover and exploit mass assignment vulnerabilities in REST APIs to escalate pr
+- **[red-teaming]** `exploiting-ms17-010-eternalblue-vulnerability` - MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's SMBv1 implemen
+- **[red-teaming]** `exploiting-nopac-cve-2021-42278-42287` - Exploit the noPac vulnerability chain (CVE-2021-42278 sAMAccountName spoofing an
+- **[web-application-security]** `exploiting-nosql-injection-vulnerabilities` - Detect and exploit NoSQL injection vulnerabilities in MongoDB, CouchDB, and othe
+- **[web-application-security]** `exploiting-oauth-misconfiguration` - Identifying and exploiting OAuth 2.0 and OpenID Connect misconfigurations includ
+- **[web-application-security]** `exploiting-prototype-pollution-in-javascript` - Detect and exploit JavaScript prototype pollution vulnerabilities on both client
+- **[web-application-security]** `exploiting-race-condition-vulnerabilities` - Detect and exploit race condition vulnerabilities in web applications using Turb
+- **[web-application-security]** `exploiting-server-side-request-forgery` - Identifying and exploiting SSRF vulnerabilities to access internal services, clo
+- **[network-security]** `exploiting-smb-vulnerabilities-with-metasploit` - Identifies and exploits SMB protocol vulnerabilities using Metasploit Framework 
+- **[penetration-testing]** `exploiting-sql-injection-vulnerabilities` - Identifies and exploits SQL injection vulnerabilities in web applications during
+- **[web-application-security]** `exploiting-sql-injection-with-sqlmap` - Detecting and exploiting SQL injection vulnerabilities using sqlmap to extract d
+- **[web-application-security]** `exploiting-template-injection-vulnerabilities` - Detecting and exploiting Server-Side Template Injection (SSTI) vulnerabilities a
+- **[web-application-security]** `exploiting-type-juggling-vulnerabilities` - Exploit PHP type juggling vulnerabilities caused by loose comparison operators t
+- **[vulnerability-management]** `exploiting-vulnerabilities-with-metasploit-framework` - The Metasploit Framework is the world's most widely used penetration testing pla
+- **[web-application-security]** `exploiting-websocket-vulnerabilities` - Testing WebSocket implementations for authentication bypass, cross-site hijackin
+- **[red-teaming]** `exploiting-zerologon-vulnerability-cve-2020-1472` - Exploit the Zerologon vulnerability (CVE-2020-1472) in the Netlogon Remote Proto
+- **[threat-hunting]** `hunting-for-cobalt-strike-beacons` - Detect Cobalt Strike beacon network activity using default TLS certificate signa
+- **[threat-hunting]** `hunting-for-dns-based-persistence` - Hunt for DNS-based persistence mechanisms including DNS hijacking, dangling CNAM
+- **[threat-hunting]** `hunting-for-dns-tunneling-with-zeek` - Detect DNS tunneling and data exfiltration by analyzing Zeek dns.log for high-en
+- **[api-security]** `implementing-api-abuse-detection-with-rate-limiting` - Implement API abuse detection using token bucket, sliding window, and adaptive r
+- **[api-security]** `implementing-api-gateway-security-controls` - Implements security controls at the API gateway layer including authentication e
+- **[api-security]** `implementing-api-key-security-controls` - Implements secure API key generation, storage, rotation, and revocation controls
+- **[api-security]** `implementing-api-rate-limiting-and-throttling` - Implements API rate limiting and throttling controls using token bucket, sliding
+- **[api-security]** `implementing-api-schema-validation-security` - Implement API schema validation using OpenAPI specifications and JSON Schema to 
+- **[api-security]** `implementing-api-security-posture-management` - Implement API Security Posture Management to continuously discover, classify, an
+- **[api-security]** `implementing-api-security-testing-with-42crunch` - Implement comprehensive API security testing using the 42Crunch platform to perf
+- **[api-security]** `implementing-api-threat-protection-with-apigee` - Implement API threat protection using Google Apigee policies including JSON/XML 
+- **[vulnerability-management]** `implementing-attack-path-analysis-with-xm-cyber` - Deploy XM Cyber's continuous exposure management platform to map attack paths, i
+- **[offensive-security]** `implementing-attack-surface-management` - Implements external attack surface management (EASM) using Shodan, Censys, and P
+- **[network-security]** `implementing-browser-isolation-for-zero-trust` - Deploys remote browser isolation (RBI) as a core component of a Zero Trust archi
+- **[vulnerability-management]** `implementing-cloud-vulnerability-posture-management` - Implement Cloud Security Posture Management using AWS Security Hub, Azure Defend
+- **[vulnerability-management]** `implementing-continuous-security-validation-with-bas` - Deploy Breach and Attack Simulation tools to continuously validate security cont
+- **[application-security]** `implementing-devsecops-security-scanning` - Integrates Static Application Security Testing (SAST), Dynamic Application Secur
+- **[vulnerability-management]** `implementing-epss-score-for-vulnerability-prioritization` - Integrate FIRST's Exploit Prediction Scoring System (EPSS) API to prioritize vul
+- **[devsecops]** `implementing-fuzz-testing-in-cicd-with-aflplusplus` - Integrate AFL++ coverage-guided fuzz testing into CI/CD pipelines to discover me
+- **[endpoint-security]** `implementing-memory-protection-with-dep-aslr` - Implements memory protection mechanisms including DEP (Data Execution Prevention
+- **[deception-technology]** `implementing-network-deception-with-honeypots` - Deploy and manage network honeypots using OpenCanary, T-Pot, or Cowrie to detect
+- **[vulnerability-management]** `implementing-patch-management-workflow` - Patch management is the systematic process of identifying, testing, deploying, a
+- **[ransomware-defense]** `implementing-ransomware-kill-switch-detection` - Detects and exploits ransomware kill switch mechanisms including mutex-based exe
+- **[vulnerability-management]** `implementing-rapid7-insightvm-for-scanning` - Deploy and configure Rapid7 InsightVM Security Console and Scan Engines for auth
+- **[application-security]** `implementing-runtime-application-self-protection` - Deploy Runtime Application Self-Protection (RASP) agents to detect and block att
+- **[vulnerability-management]** `implementing-vulnerability-management-with-greenbone` - Deploy and operate Greenbone/OpenVAS vulnerability management using the python-g
+- **[vulnerability-management]** `implementing-vulnerability-remediation-sla` - Vulnerability remediation SLAs define mandatory timeframes for patching or mitig
+- **[vulnerability-management]** `implementing-vulnerability-sla-breach-alerting` - Build automated alerting for vulnerability remediation SLA breaches with severit
+- **[web-application-security]** `implementing-web-application-logging-with-modsecurity` - Configure ModSecurity WAF with OWASP Core Rule Set (CRS) for web application log
+- **[mobile-security]** `intercepting-mobile-traffic-with-burpsuite` - Intercepts and analyzes HTTP/HTTPS traffic from mobile applications using Burp S
+- **[red-teaming]** `mapping-attack-paths-with-bloodhound-ce` - Collect Active Directory data with SharpHound and Entra ID data with AzureHound,
+- **[threat-intelligence]** `monitoring-darkweb-sources` - Monitors dark web forums, marketplaces, paste sites, and ransomware leak sites f
+- **[ot-security]** `monitoring-scada-modbus-traffic-anomalies` - Monitors Modbus TCP traffic on SCADA and ICS networks to detect anomalous functi
+- **[penetration-testing]** `moving-laterally-with-netexec` - Use NetExec for SMB, WinRM, LDAP, and MSSQL enumeration, password spraying, and 
+- **[red-teaming]** `operating-havoc-c2` - Deploy a Havoc team server with Yaotl profiles, generate evasive Demon agents wi
+- **[red-teaming]** `operating-sliver-c2` - Stand up a Sliver C2 server and listeners, generate cross-platform implants and 
+- **[red-teaming]** `performing-active-directory-bloodhound-analysis` - Use BloodHound and SharpHound to enumerate Active Directory relationships and id
+- **[red-team]** `performing-active-directory-forest-trust-attack` - Enumerate and audit Active Directory forest trust relationships using impacket f
+- **[penetration-testing]** `performing-active-directory-penetration-test` - Conduct a focused Active Directory penetration test to enumerate domain objects,
+- **[vulnerability-management]** `performing-active-directory-vulnerability-assessment` - Assess Active Directory security posture using PingCastle, BloodHound, and Purpl
+- **[vulnerability-management]** `performing-agentless-vulnerability-scanning` - Configure and execute agentless vulnerability scanning using network protocols, 
+- **[threat-intelligence]** `performing-ai-driven-osint-correlation` - Use AI and LLM-based reasoning to correlate findings across multiple OSINT sourc
+- **[api-security]** `performing-api-fuzzing-with-restler` - Uses Microsoft RESTler to perform stateful REST API fuzzing by automatically gen
+- **[api-security]** `performing-api-inventory-and-discovery` - Performs API inventory and discovery to identify all API endpoints in an organiz
+- **[api-security]** `performing-api-rate-limiting-bypass` - Tests API rate limiting implementations for bypass vulnerabilities by manipulati
+- **[api-security]** `performing-api-security-testing-with-postman` - Uses Postman to perform structured API security testing by building collections 
+- **[vulnerability-management]** `performing-asset-criticality-scoring-for-vulns` - Develop and apply a multi-factor asset criticality scoring model to weight vulne
+- **[vulnerability-management]** `performing-authenticated-scan-with-openvas` - Configure and execute authenticated vulnerability scans using OpenVAS/Greenbone 
+- **[vulnerability-management]** `performing-authenticated-vulnerability-scan` - Authenticated (credentialed) vulnerability scanning uses valid system credential
+- **[offensive-security]** `performing-binary-exploitation-analysis` - Analyze binary exploitation techniques including buffer overflows and ROP chains
+- **[web-application-security]** `performing-blind-ssrf-exploitation` - Detect and exploit blind Server-Side Request Forgery vulnerabilities using out-o
+- **[web-application-security]** `performing-clickjacking-attack-test` - Testing web applications for clickjacking vulnerabilities by assessing frame emb
+- **[cloud-security]** `performing-cloud-forensics-with-aws-cloudtrail` - Perform forensic investigation of AWS environments using CloudTrail logs to reco
+- **[cloud-security]** `performing-cloud-penetration-testing-with-pacu` - Performing authorized AWS penetration testing using Pacu, the open-source AWS ex
+- **[web-application-security]** `performing-content-security-policy-bypass` - Analyze and bypass Content Security Policy implementations to achieve cross-site
+- **[red-teaming]** `performing-credential-access-with-lazagne` - Extract stored credentials from compromised endpoints using the LaZagne post-exp
+- **[web-application-security]** `performing-csrf-attack-simulation` - Testing web applications for Cross-Site Request Forgery vulnerabilities by craft
+- **[vulnerability-management]** `performing-cve-prioritization-with-kev-catalog` - Leverage the CISA Known Exploited Vulnerabilities catalog alongside EPSS and CVS
+- **[soc-operations]** `performing-deception-technology-deployment` - Deploys deception technology including honeypots, honeytokens, and decoy systems
+- **[web-application-security]** `performing-directory-traversal-testing` - Testing web applications for path traversal vulnerabilities that allow reading o
+- **[incident-response]** `performing-disk-forensics-investigation` - Conducts disk forensics investigations using forensic imaging, file system analy
+- **[network-security]** `performing-dns-enumeration-and-zone-transfer` - Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and ma
+- **[security-operations]** `performing-dns-tunneling-detection` - Detects DNS tunneling by computing Shannon entropy of DNS query names, analyzing
+- **[endpoint-security]** `performing-endpoint-forensics-investigation` - Performs digital forensics investigation on compromised endpoints including memo
+- **[penetration-testing]** `performing-external-network-penetration-test` - Conduct a comprehensive external network penetration test to identify vulnerabil
+- **[application-security]** `performing-fuzzing-with-aflplusplus` - Perform coverage-guided fuzzing of compiled binaries using AFL++ (American Fuzzy
+- **[api-security]** `performing-graphql-depth-limit-attack` - Execute and test GraphQL depth limit attacks using deeply nested recursive queri
+- **[api-security]** `performing-graphql-introspection-attack` - Performs GraphQL introspection attacks to extract the full API schema including 
+- **[web-application-security]** `performing-graphql-security-assessment` - Assessing GraphQL API endpoints for introspection leaks, injection attacks, auth
+- **[web-application-security]** `performing-http-parameter-pollution-attack` - Execute HTTP Parameter Pollution attacks to bypass input validation, WAF rules, 
+- **[red-teaming]** `performing-initial-access-with-evilginx3` - Perform authorized initial access using EvilGinx3 adversary-in-the-middle phishi
+- **[penetration-testing]** `performing-iot-security-assessment` - Performs comprehensive security assessments of IoT devices and their ecosystems 
+- **[threat-intelligence]** `performing-ip-reputation-analysis-with-shodan` - Analyze IP address reputation using the Shodan API to identify open ports, runni
+- **[api-security]** `performing-jwt-none-algorithm-attack` - Execute and test the JWT none algorithm attack to bypass signature verification 
+- **[red-teaming]** `performing-kerberoasting-attack` - Kerberoasting is a post-exploitation technique that targets service accounts in 
+- **[red-teaming]** `performing-lateral-movement-with-wmiexec` - Perform lateral movement across Windows networks using WMI-based remote executio
+- **[digital-forensics]** `performing-linux-log-forensics-investigation` - Perform forensic investigation of Linux system logs including syslog, auth.log, 
+- **[digital-forensics]** `performing-log-analysis-for-forensic-investigation` - Collect, parse, and correlate system, application, and security logs to reconstr
+- **[digital-forensics]** `performing-network-forensics-with-wireshark` - Capture and analyze network traffic using Wireshark and tshark to reconstruct ne
+- **[digital-forensics]** `performing-network-packet-capture-analysis` - Perform forensic analysis of network packet captures (PCAP/PCAPNG) using Wiresha
+- **[red-teaming]** `performing-open-source-intelligence-gathering` - Open Source Intelligence (OSINT) gathering is the first active phase of a red te
+- **[threat-intelligence]** `performing-osint-with-spiderfoot` - Automate OSINT collection using SpiderFoot REST API and CLI for target profiling
+- **[threat-intelligence]** `performing-paste-site-monitoring-for-credentials` - Monitor paste sites like Pastebin and GitHub Gists for leaked credentials, API k
+- **[red-teaming]** `performing-physical-intrusion-assessment` - Conduct authorized physical penetration testing using tailgating, badge cloning,
+- **[penetration-testing]** `performing-privilege-escalation-assessment` - Performs privilege escalation assessments on compromised Linux and Windows syste
+- **[red-teaming]** `performing-privilege-escalation-on-linux` - Linux privilege escalation involves elevating from a low-privilege user account 
+- **[red-team]** `performing-red-team-with-covenant` - Conduct red team operations using the Covenant C2 framework for authorized adver
+- **[ot-ics-security]** `performing-s7comm-protocol-security-analysis` - Perform security analysis of Siemens S7comm and S7CommPlus protocols used by SIM
+- **[web-application-security]** `performing-second-order-sql-injection` - Detect and exploit second-order SQL injection vulnerabilities where malicious in
+- **[web-application-security]** `performing-security-headers-audit` - Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie 
+- **[api-security]** `performing-soap-web-service-security-testing` - Perform security testing of SOAP web services by analyzing WSDL definitions and 
+- **[digital-forensics]** `performing-sqlite-database-forensics` - Perform forensic analysis of SQLite databases to recover deleted records from fr
+- **[security-operations]** `performing-ssrf-vulnerability-exploitation` - Test for Server-Side Request Forgery vulnerabilities by probing cloud metadata e
+- **[web-application-security]** `performing-subdomain-enumeration-with-subfinder` - Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passiv
+- **[application-security]** `performing-supply-chain-attack-simulation` - Simulate and detect software supply chain attacks including typosquatting detect
+- **[penetration-testing]** `performing-thick-client-application-penetration-test` - Conduct a thick client application penetration test to identify insecure local s
+- **[digital-forensics]** `performing-timeline-reconstruction-with-plaso` - Build comprehensive forensic super-timelines using Plaso (log2timeline) to corre
+- **[penetration-testing]** `performing-vulnerability-scanning-with-nessus` - Performs authenticated and unauthenticated vulnerability scanning using Tenable 
+- **[web-application-security]** `performing-web-application-firewall-bypass` - Bypass Web Application Firewall protections using encoding techniques, HTTP meth
+- **[penetration-testing]** `performing-web-application-penetration-test` - Performs systematic security testing of web applications following the OWASP Web
+- **[vulnerability-management]** `performing-web-application-scanning-with-nikto` - Nikto is an open-source web server and web application scanner that tests agains
+- **[vulnerability-management]** `performing-web-application-vulnerability-triage` - Triage web application vulnerability findings from DAST/SAST scanners using OWAS
+- **[web-application-security]** `performing-web-cache-deception-attack` - Execute web cache deception attacks by exploiting path normalization discrepanci
+- **[web-application-security]** `performing-web-cache-poisoning-attack` - Exploiting web cache mechanisms to serve malicious content to other users by poi
+- **[penetration-testing]** `performing-wireless-network-penetration-test` - Execute a wireless network penetration test to assess WiFi security by capturing
+- **[identity-access-management]** `post-exploiting-microsoft-graph-with-graphrunner` - Perform recon, persistence, privilege escalation, and data search via the Micros
+- **[vulnerability-management]** `prioritizing-vulnerabilities-with-cvss-scoring` - The Common Vulnerability Scoring System (CVSS) is the industry standard framewor
+- **[threat-intelligence]** `profiling-threat-actor-groups` - Develops comprehensive threat actor profiles for APT groups, criminal organizati
+- **[red-teaming]** `relaying-ntlm-for-adcs-esc8` - Run ntlmrelayx into ADCS web enrollment to obtain a domain controller certificat
+- **[vulnerability-management]** `scanning-infrastructure-with-nessus` - Tenable Nessus is the industry-leading vulnerability scanner used to identify se
+- **[network-security]** `scanning-network-with-nmap-advanced` - Performs advanced network reconnaissance using Nmap's scripting engine, timing c
+- **[api-security]** `testing-api-authentication-weaknesses` - Tests API authentication mechanisms for weaknesses including broken token valida
+- **[api-security]** `testing-api-for-broken-object-level-authorization` - Tests REST and GraphQL APIs for Broken Object Level Authorization (BOLA/IDOR) vu
+- **[api-security]** `testing-api-for-mass-assignment-vulnerability` - Tests APIs for mass assignment (auto-binding) vulnerabilities where clients can 
+- **[web-application-security]** `testing-api-security-with-owasp-top-10` - Systematically assessing REST and GraphQL API endpoints against the OWASP API Se
+- **[web-application-security]** `testing-cors-misconfiguration` - Identifying and exploiting Cross-Origin Resource Sharing misconfigurations that 
+- **[web-application-security]** `testing-for-broken-access-control` - Systematically testing web applications for broken access control vulnerabilitie
+- **[web-application-security]** `testing-for-business-logic-vulnerabilities` - Identifying flaws in application business logic that allow price manipulation, w
+- **[web-application-security]** `testing-for-email-header-injection` - Test web application email functionality for SMTP header injection vulnerabiliti
+- **[web-application-security]** `testing-for-host-header-injection` - Test web applications for HTTP Host header injection vulnerabilities to identify
+- **[web-application-security]** `testing-for-json-web-token-vulnerabilities` - Test JWT implementations for critical vulnerabilities including algorithm confus
+- **[web-application-security]** `testing-for-open-redirect-vulnerabilities` - Identify and test open redirect vulnerabilities in web applications by analyzing
+- **[web-application-security]** `testing-for-sensitive-data-exposure` - Identifying sensitive data exposure vulnerabilities including API key leakage, P
+- **[web-application-security]** `testing-for-xml-injection-vulnerabilities` - Test web applications for XML injection vulnerabilities including XXE, XPath inj
+- **[penetration-testing]** `testing-for-xss-vulnerabilities` - Tests web applications for Cross-Site Scripting (XSS) vulnerabilities by injecti
+- **[web-application-security]** `testing-for-xss-vulnerabilities-with-burpsuite` - Identifying and validating cross-site scripting vulnerabilities using Burp Suite
+- **[web-application-security]** `testing-for-xxe-injection-vulnerabilities` - Discovering and exploiting XML External Entity injection vulnerabilities to read
+- **[web-application-security]** `testing-jwt-token-security` - Assessing JSON Web Token implementations for cryptographic weaknesses, algorithm
+- **[api-security]** `testing-oauth2-implementation-flaws` - Tests OAuth 2.0 and OpenID Connect implementations for security flaws including 
+- **[api-security]** `testing-websocket-api-security` - Tests WebSocket API implementations for security vulnerabilities including missi
+- **[threat-intelligence]** `tracking-threat-actor-infrastructure` - Threat actor infrastructure tracking involves monitoring and mapping adversary-c
+- **[vulnerability-management]** `triaging-vulnerabilities-with-ssvc-framework` - Triage and prioritize vulnerabilities using CISA's Stakeholder-Specific Vulnerab

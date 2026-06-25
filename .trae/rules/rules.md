@@ -82,6 +82,26 @@
 - 扫描后按 SKILL.md 规范汇报（摘要 + 表格 + 高危标注）
 - 默认 project 为 `MCP`，每次调用前自动清空
 
+### 3.4 Anthropic Cybersecurity Skills
+
+> 索引文件：`.trae/skills/anthro-cybersec/INDEX.md`（236 个精选技能）
+
+本环境已安装 Anthropic Cybersecurity Skills，来源 [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)（Apache 2.0），精选与渗透测试直接相关的 26 个安全子域：
+
+| 子域 | 数量 | 适用场景 |
+|------|------|---------|
+| `web-application-security` | 42 | OWASP Top 10、SQLi、XSS、SSRF、SSTI、反序列化等 |
+| `penetration-testing` | 21 | 网络/Web/云/移动渗透全流程 |
+| `red-teaming` | 33 | ADCS、BloodHound、C2、NTLM 中继等红队技术 |
+| `api-security` | 28 | GraphQL、REST、API Top 10、WAF 绕过 |
+| `vulnerability-management` | 25 | Nessus/Nikto/OpenVAS 扫描、漏洞优先级评估 |
+
+**使用方式：**
+- AI 根据当前任务需求，按子域匹配读取技能文件 `.trae/skills/anthro-cybersec/<skill-name>/SKILL.md`
+- 每个技能含 YAML 前线 matter（MITRE ATT&CK/D3FEND/ATLAS 映射）+ Markdown 操作步骤
+- 技能按需加载，无需全部读入上下文
+- 授权要求与 §3.3 一致
+
 ---
 
 ## 四、安全测试规范
@@ -131,6 +151,9 @@
 │           ├── examples.md    # 各模块 MCP 调用示例
 │           ├── README.md      # 宿主适配指引
 │           └── mcp-config-example.json
+│       └── anthro-cybersec/    # Anthropic Cybersecurity Skills (236个)
+│           ├── INDEX.md        # 技能索引
+│           └── <skill-name>/   # 每个技能一个目录（SKILL.md + references/）
 ├── agent_memory/             # 记忆持久化存储 + 自进化
 │   ├── memory_list.md        # 结构化记忆库
 │   ├── rule_update.log       # 进化迭代日志
