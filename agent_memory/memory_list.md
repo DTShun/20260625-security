@@ -144,3 +144,29 @@
 - 标签：#偏好 #CLI优先 #效率优先
 
 ---
+
+## [方案] 2026-06-25 16:00:00
+- 内容：项目已托管至 GitHub 仓库 https://github.com/DTShun/20260625-security（public），21 个文件、3282 行。使用 gh CLI 认证（账号 DTShun，token scope: gist/repo/workflow），git 全局配置 user.name=DTShun、email=145439031+DTShun@users.noreply.github.com。已打 v1.0 标签
+- 关联：项目版本管理
+- 标签：#Git #GitHub #版本控制 #gh_CLI
+
+---
+
+## [方案] 2026-06-25 16:00:00
+- 内容：Git 工作流：git status → git add -A → git commit -m "xxx" → git push。回退三层次：未 commit 用 git checkout -- 文件；已 commit 未 push 用 git reset --soft/hard HEAD~1；已 push 用 git reset --hard + git push --force。tag 是不可移动的路标：git tag -a v1.0 -m "xxx" → git push --tags
+- 关联：项目版本管理
+- 标签：#Git #工作流 #回退 #tag
+
+---
+
+## [偏好] 2026-06-25 16:00:00
+- 内容：用户对 Git 学习偏好"理解概念模型再记命令"（如 tag 不可移动 vs branch 跟随 commit），不满足于只给命令。对新工具（Git/渗透测试 skill）先理解原理再看操作
+- 关联：用户学习偏好
+- 标签：#偏好 #学习方式 #概念优先
+
+---
+
+## [偏好] 2026-06-25 16:00:00
+- 内容：用户重视项目版本管理，在安装新渗透测试 Skill 前坚持先上传 Git 并打 tag，形成可回退的版本节点后再继续
+- 关联：项目版本管理
+- 标签：#偏好 #版本管理 #先提交再变更
